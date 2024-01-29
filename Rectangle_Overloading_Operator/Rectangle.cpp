@@ -32,9 +32,9 @@ void Rectangles::print()
     cout << "The rectangle area is:" << getArea() << endl;
 }
 
-bool Rectangles::operator < (Rectangles triangle2) 
+bool Rectangles::operator < (Rectangles rectangle2) 
 {
-    if (getArea() < triangle2.getArea())
+    if (getArea() < rectangle2.getArea())
     {
         return true;
     }
@@ -44,9 +44,9 @@ bool Rectangles::operator < (Rectangles triangle2)
     }
 }
 
-bool Rectangles::operator > (Rectangles triangle2)
+bool Rectangles::operator > (Rectangles rectangle2)
 {
-    if (getArea() > triangle2.getArea())
+    if (getArea() > rectangle2.getArea())
     {
         return true;
     }
@@ -56,9 +56,9 @@ bool Rectangles::operator > (Rectangles triangle2)
     }
 }
 
-bool Rectangles::operator == (Rectangles triangle2)
+bool Rectangles::operator == (Rectangles rectangle2)
 {
-    if (getArea() == triangle2.getArea())
+    if (getArea() == rectangle2.getArea())
     {
         return true;
     }

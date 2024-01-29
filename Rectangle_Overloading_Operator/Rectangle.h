@@ -20,9 +20,9 @@ public:
 	void setB(int b);
 	int getB();
 
-	bool operator < (Rectangles triangle2);
-	bool operator > (Rectangles triangle2);
-	bool operator == (Rectangles triangle2);
+	bool operator < (Rectangles rectangle2);
+	bool operator > (Rectangles rectangle2);
+	bool operator == (Rectangles rectangle2);
 
 private:
 	int b;
