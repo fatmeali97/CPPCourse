@@ -59,7 +59,7 @@ void Box::SetWidth(double width)
 
 double Box::GetWidth()
 {
-    return 0.0;
+    return m_width;
 }
 
 Box Box::operator+(Box b)
